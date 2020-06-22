@@ -1,0 +1,37 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+}
+
+#app {
+    width: 100%;
+    min-height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(178, 183, 194);
+}
+
+
+a:hover {
+    color: #69a5ff;
+}
+
+/* .pre-rendered,
+.seo-content {
+    opacity: 0 !important;
+} */
