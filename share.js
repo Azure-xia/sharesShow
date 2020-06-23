@@ -6,7 +6,7 @@
 import {
     deepCopy
 } from "./utils/utils.js";
-const partShareList = [{
+const partShareList = [{ //定义一个基础数据对象
         name: "平安银行",
         code: "000001",
         increase: "0.22%",
@@ -87,4 +87,4 @@ function extendObj(arr, num) {
     });
     return shareList;
 }
-export default extendObj(partShareList, 300); //将数组扩展成4000个数据项
+export default extendObj(partShareList, 3001); //将数组扩展成3001个数据项
